@@ -6,10 +6,15 @@ import router from './router'
 import 'styles/reset.css'
 import 'styles/border.css'
 import 'styles/iconfont.css'
-// 1像素边框
 
 // 移动端300ms点击延迟
 import fastClick from 'fastClick'
+
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/swiper-bundle.css'
+
+Vue.use(VueAwesomeSwiper)
+// 1像素边框
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
